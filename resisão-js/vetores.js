@@ -46,13 +46,31 @@ console.log(frutas)
 
 console.log("----------------************-----------------------")
 
+console.log("-----for normal-------")
 //Percurso(1): for tradicional 
 for(let i = 0; i < frutas.length; i++){
     console.log(frutas[i])
 }
-console.log("------------")
+console.log("-----for inverso-------")
 //Percurso(2): for tradicional em ordem inversa
 for(let i = frutas.length - 1; i >= 0; i--){
     console.log(frutas[i])
 }
+
+console.log("-----for..of-------")
+//Percurso (3): for..of
+//faz oq o for faz sem precisar de preocupar com o length 
+for(let f of frutas){
+    console.log(f)
+}
+
+
+console.log("-----forEach-------")
+//Percurso (4): forEach()
+/**forEch() tem como parâmetro uma função que será chamada   
+ para cada elemento do vetor */
+frutas.forEach(function(elemento) {
+    console.log(elemento)
+})
+
 
