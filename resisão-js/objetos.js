@@ -64,6 +64,7 @@ console.log(carro)
 
 console.log('------**------')
 console.log('Exibindo os nomes das propriedades do objeto pessoa')
+console.log('------for...in-------')
 //for..in : retorna as propriedades de um objeto    
 for(let prop in pessoa){
     console.log(prop)

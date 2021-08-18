@@ -29,6 +29,7 @@ const potencia2 = (base, expoente) => base ** expoente
 console.log(potencia(2,5))
 console.log(potencia2(2,5))
 
+console.log('------------------------')
 //Função tradicional sem parâmetros, 1 linha corpo com return
 function dataHora(){
     return new Date()
@@ -46,8 +47,19 @@ console.log('------------------------')
 //Função tradicional com 1 parâmetro e múltiplas linhas de corpo
 function fatorial(n){
     let res = 1
-    for(let i = n; i > 1; i--) res *= 1
+    for(let i = n; i > 1; i--) res *= i
     return res
 }
+
+// Arrow function correspondente
+// Retornam as chaves delimitando o corpo da função 
+const fatorial2 = n => {
+    let res = 1
+    for (let i = n; i > 1; i--) res *= i
+    return res
+}
+
+
 console.log(fatorial(5))
 console.log(fatorial2(5))
+
