@@ -22,7 +22,7 @@ class FormaGeometrica {
         um objeto a partir da classe.
     */
 
-    constructor (base, altura, peso){
+    constructor (base, altura, tipo){
         //O construtor recebe dados externos: base, altura, e tipo
         // e os armazena os atributos internos #sabe #altura e #tipo.
         //Toda vez que nos referimos a uma atributo ou método (que pertencem 
