@@ -149,6 +149,7 @@ console.log('Área da forma1:', forma1.calAre())
 console.log('Área da forma2:', forma2.calAre())
 console.log('Área da forma3:', forma3.calAre())
 
+//uso a propriedade como atributo normal 
 console.log('Área da forma1:', forma1.area)
 console.log('Área da forma2:', forma2.area)
 console.log('Área da forma3:', forma3.area)
