@@ -22,7 +22,7 @@ for (let i = 0; i < frase.length; i++){
 vetor.splice(23,1)
 
 // Insere na primeira posição
-vet.unshift('X')
+vetor.unshift('X')
 
 // Insere na 12º posição 
 vetor.splice(11, 0, 'W') //posição, remoção, adicionar
